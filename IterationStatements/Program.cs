@@ -116,7 +116,7 @@
                 canParse = int.TryParse(Console.ReadLine(), out userNumber);
             }
             
-            if (userNumber <=10 && userNumber >= -10);
+            if (userNumber <=10 && userNumber >= -10)
             {
                 Console.WriteLine($"{userNumber} is in the ten range!");
             }
